@@ -1,0 +1,13 @@
+[user]
+	name = "100stacks"
+	email = 100stacks@users.noreply.github.com
+[credential]
+	helper = osxkeychain
+[url "https://"]
+	insteadOf = git://
+[push]
+	default = "nothing"
+[core]
+	editor = nano
+# change line below to your local usr account root .gitignore_global
+	excludesfile = /Users/acct/.gitignore_global  
