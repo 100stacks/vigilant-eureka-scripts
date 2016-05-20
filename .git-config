@@ -1,0 +1,18 @@
+# Upstream - Master - Local Builds
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true
+    ignorecase = true
+    precomposeunicode = true
+[remote "origin"]
+    url = https://github.com/100stacks/encore-ui.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "upstream"]
+    url = https://github.com/rackerlabs/encore-ui.git
+    fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
+    
