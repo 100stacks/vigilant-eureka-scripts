@@ -1,3 +1,3 @@
 # vigilant-eureka-scripts
 
-Place to stash various scripts for a development environment. 
+Place to stash various development environment scripts. 
